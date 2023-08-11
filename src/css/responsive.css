@@ -1,0 +1,54 @@
+@media (max-width: 760px) {
+    .logo-container {
+        width: 55%;
+    }
+
+    .logo {
+        font-size: 30px;
+        margin-top: -6%;
+        line-height: 15px;
+    }
+
+    .slogan {
+        font-size: 5px;
+        margin-left: 6%;
+        margin-bottom: 4%;
+    }
+
+    .container-main {
+        margin-top: 20%;
+    }
+
+    .input-city {
+        font-size: 12px;
+        width: calc(100% - 50px);
+    }
+
+    .botao-buscar {
+        padding: 9px;
+    }
+
+    .img-buscar {
+        width: 15px;
+    }
+
+    .city {
+        font-size: 15px;
+    }
+
+    .temp {
+        font-size: 15px;
+    }
+
+    .text-previsao {
+        font-size: 12px;
+    }
+
+    .umidade {
+        font-size: 13px;
+    }
+
+    .info-mark {
+        font-size: 10px;
+    }
+}

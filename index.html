@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon-16x16.png">
+    <link rel="manifest" href="src/img/site.webmanifest">
+    <script src="src/js/script.js"></script>
+
+    <title>iWeather | ivitorh</title>
+</head>
+<body>
+    <div class="logo-container">
+        <h1 class="logo">i<span class="logo-main">Weather</span>
+            <span class="slogan">CLIMATEMPO</span>
+        </h1>
+    </div>
+
+    <div class="container-main">
+        <input type="text" class="input-city" placeholder="Digite o nome da cidade">
+        <button class="botao-buscar" onclick="btn()">
+            <img class="img-buscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
+        </button>
+        
+        <div class="container-medio">
+            <h2 class="city">Cidade</h2>
+        
+            <p class="temp">Temperatura: --°C</p>
+
+            <div class="container-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="cloud">
+                <p class="text-previsao">--</p>
+            </div>
+        
+            <p class="umidade">Umidade: --%</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="info-mark">
+            &copy;2023 - Desenvolvido por <a href="https://github.com/ivitorh" target="_blank">ivitorh</a>
+        </p>
+    </footer>
+</body>
+</html>
