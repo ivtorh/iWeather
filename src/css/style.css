@@ -134,8 +134,18 @@ body {
     margin-top: 5%;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    position: fixed;
+    bottom: 0;
+}
+
 .info-mark {
-    margin-top: 50%;
     font-size: 12px;
     color: #ffffff;
     font-weight: 900;
