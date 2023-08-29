@@ -11,7 +11,7 @@ function dataScreen(dados) {
     document.querySelector('.temp').innerHTML = `Temperatura: <strong>${Math.floor(dados.main.temp)}°C</strong>`;
     
     // Atualizando o conteúdo do elemento HTML com a classe "text-previsao" para mostrar a descrição do clima
-    document.querySelector('.text-previsao').innerHTML = `${dados.weather[0].description}`;
+    document.querySelector('.text-previsao').innerHTML = `<strong>${dados.weather[0].description}</strong>`;
     
     // Atualizando o conteúdo do elemento HTML com a classe "umidade" para mostrar a umidade
     document.querySelector('.umidade').innerHTML = `Umidade: <strong>${dados.main.humidity}%</strong>`;
