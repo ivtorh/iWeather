@@ -8,4 +8,4 @@
 * Frontend: O projeto utiliza tecnologias front-end como **HTML, CSS, JAVASCRIPT** para criar a interface do usuário e interações dinâmicas.
 
 ### Link do Projeto
-Clique aqui para visualizar o projeto <https://ivitorh.github.io/iWeather/>
+Clique aqui para visualizar o projeto <https://ivtorh.github.io/iWeather/>
