@@ -1,5 +1,5 @@
 //Background que carrega uma imagem aleatória sempre que a página é carregada
-const ACCESS_KEY = 'SEU_ACCESS_KEY_AQUI'; 
+const ACCESS_KEY = 'yF7bWI_F94cMWt8smtqLPchMqxdP-kw5x41t2xsMncw'; 
 
         async function carregarBackgroundAleatorio() {
             try {
