@@ -151,10 +151,6 @@ footer {
     font-weight: 900;
 }
 
-a {
-    color: #dcdcdc;
-}
-
 a:hover {
     text-decoration: underline;
 }
