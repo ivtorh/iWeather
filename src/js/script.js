@@ -1,3 +1,24 @@
+//Background que carrega uma imagem aleatória sempre que a página é carregada
+const ACCESS_KEY = 'SEU_ACCESS_KEY_AQUI'; 
+
+        async function carregarBackgroundAleatorio() {
+            try {
+                const urlApi = `https://unsplash.com{ACCESS_KEY}&query=nature`;
+                
+                const resposta = await fetch(urlApi);
+                const dados = await resposta.json();
+                const urlImagem = dados.urls.regular;
+
+                // Aplica a URL diretamente no estilo de background do body
+                document.body.style.backgroundImage = `url('${urlImagem}')`;
+                
+            } catch (erro) {
+                console.error('Erro ao buscar imagem de fundo:', erro);
+            }
+        }
+
+        // Dispara a função assim que a página é carregada
+        window.onload = carregarBackgroundAleatorio;
 
 // Definindo uma constante "key" para armazenar a chave de API fornecida pelo OpenWeatherMap
 const key = "322f72c190bd01fb91201cf8b04e19b4";
