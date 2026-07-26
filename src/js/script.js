@@ -3,7 +3,7 @@ const ACCESS_KEY = 'yF7bWI_F94cMWt8smtqLPchMqxdP-kw5x41t2xsMncw';
 
         async function carregarBackgroundAleatorio() {
             try {
-                const urlApi = `https://unsplash.com{ACCESS_KEY}&query=nature`;
+                const urlApi = `https://unsplash.com${`ACCESS_KEY`}&query=nature`;
                 
                 const resposta = await fetch(urlApi);
                 const dados = await resposta.json();
