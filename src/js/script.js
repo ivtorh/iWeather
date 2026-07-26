@@ -1,6 +1,6 @@
 
 // Definindo uma constante "key" para armazenar a chave de API fornecida pelo OpenWeatherMap
-const key = "f687600bf68d531856e715dfa9d35fa7";
+const key = "322f72c190bd01fb91201cf8b04e19b4";
 
 // Definindo uma função chamada "dataScreen" que recebe dados climáticos como parâmetro
 function dataScreen(dados) {
