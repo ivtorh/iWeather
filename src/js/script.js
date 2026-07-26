@@ -3,13 +3,13 @@ const ACCESS_KEY = 'yF7bWI_F94cMWt8smtqLPchMqxdP-kw5x41t2xsMncw';
 
 async function carregarBackgroundAleatorio() {
     try {
-        // URL ajustada com subdomínio api., rota /photos/random e parâmetro ?client_id=
+        // ATENÇÃO: Verifique se esta linha está idêntica no seu arquivo
         const urlApi = `https://api.unsplash.com/photos/random?client_id=${ACCESS_KEY}&query=nature`;
         
         const resposta = await fetch(urlApi);
 
         if (!resposta.ok) {
-            throw new Error(`Erro HTTP! status: ${resposta.status}`);
+            throw new Error(`Erro na requisição: ${resposta.status}`);
         }
 
         const dados = await resposta.json();
